@@ -10,8 +10,8 @@ export default function ReadOnlyPost(props) {
                 <h6>Last edited on: {props.lastUpdated}</h6>:
                 null
             }
-                <h3>{props.location}</h3>
-                <p>{props.content}</p>
+            <h3>{props.location}</h3>
+            <p>{props.content}</p>
         </div>
     )
 }
